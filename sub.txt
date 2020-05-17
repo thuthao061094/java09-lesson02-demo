@@ -1,3 +1,7 @@
-private int sub(int a, int b) {
+private long sub(int a, int b) {
+if ( a-b < integer.min_value){
+log.infor("sub of a&b over int value");
+return integer.min_value;
+}
     return a - b;
 }
